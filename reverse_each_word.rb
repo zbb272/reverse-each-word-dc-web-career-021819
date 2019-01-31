@@ -3,4 +3,5 @@ def reverse_each_word(string)
   (string.split).each do | letter | 
     string_array.unshift(letter)
   end 
+  string_array.join
 end 
